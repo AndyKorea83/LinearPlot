@@ -55,34 +55,4 @@ namespace LinearPlot.Converters
             return this;
         }
     }
-    //[ValueConversion(sourceType: typeof(IEnumerable<Vertex>), targetType: typeof(PointCollection))]
-    //public class PointCollectionConverter : MarkupExtension, IValueConverter
-    //{
-    //    public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-    //    {
-    //        if (value is IEnumerable<Vertex> vertices)
-    //        {
-
-    //            if (!vertices.Any())
-    //                return null;
-
-    //            var minX = vertices.Min(v => v.X);
-    //            var minY = vertices.Min(v => v.Y);
-    //            var offsetX = minX < 0 ? -minX : 0;
-    //            var offsetY = minY < 0 ? -minY : 0;
-    //            return new PointCollection(vertices.Select(v => new Point(v.X + offsetX, v.Y + offsetY)));
-    //        }
-    //        throw new ArgumentException($"Неверный параметр для {nameof(PointCollectionConverter)}. Проверьте XAML в котором вызывается конвертер.");
-    //    }
-
-    //    public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-    //    {
-    //        return null;
-    //    }
-
-    //    public override object ProvideValue(IServiceProvider serviceProvider)
-    //    {
-    //        return this;
-    //    }
-    //}
 }
