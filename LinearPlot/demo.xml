@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<PointSetCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PointSets>
+    <PointSet>
+      <Name>Новый сет</Name>
+      <ColorString>234,175,31</ColorString>
+      <Vertices>
+        <Vertex>
+          <X>-560.50740822703892</X>
+          <Y>-495.6873746176534</Y>
+        </Vertex>
+        <Vertex>
+          <X>-221.07619051100011</X>
+          <Y>-72.467009529439565</Y>
+        </Vertex>
+        <Vertex>
+          <X>70.239782413223963</X>
+          <Y>32.16233860243392</Y>
+        </Vertex>
+        <Vertex>
+          <X>343.17348287676856</X>
+          <Y>426.23132420170509</Y>
+        </Vertex>
+      </Vertices>
+    </PointSet>
+    <PointSet>
+      <Name>Новый сет</Name>
+      <ColorString>174,244,64</ColorString>
+      <Vertices>
+        <Vertex>
+          <X>-247.03647306239395</X>
+          <Y>-518.65974040559331</Y>
+        </Vertex>
+        <Vertex>
+          <X>-62.4168514146308</X>
+          <Y>-204.86156777637183</Y>
+        </Vertex>
+        <Vertex>
+          <X>502.47058769381385</X>
+          <Y>79.200772618266285</Y>
+        </Vertex>
+      </Vertices>
+    </PointSet>
+  </PointSets>
+  <AxisX>
+    <Min>-560.50740822703892</Min>
+    <Max>502.47058769381385</Max>
+    <Title />
+    <Units />
+    <Step>50</Step>
+  </AxisX>
+  <AxisY>
+    <Min>-518.65974040559331</Min>
+    <Max>426.23132420170509</Max>
+    <Title />
+    <Units />
+    <Step>50</Step>
+  </AxisY>
+</PointSetCollection>

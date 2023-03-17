@@ -1,0 +1,42 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="mainWindowColor">#fff</SolidColorBrush>
+    <SolidColorBrush x:Key="borderColor">#efefef</SolidColorBrush>
+
+    <!--text-->
+    <SolidColorBrush x:Key="mainTextColor">#333</SolidColorBrush>
+    <SolidColorBrush x:Key="mainTextColorD">#999</SolidColorBrush>
+    <SolidColorBrush x:Key="linkColor">#3498db</SolidColorBrush>
+    <SolidColorBrush x:Key="errorColor">#99092b</SolidColorBrush>
+
+    <!--textbox-->
+    <SolidColorBrush x:Key="textboxBgColor">#fff</SolidColorBrush>
+    <SolidColorBrush x:Key="textboxBorderColor">#077ba8</SolidColorBrush>
+    <SolidColorBrush x:Key="textboxCaretColor">#94068c</SolidColorBrush>
+    <SolidColorBrush x:Key="textboxBgColorDisabled">#e5e5e5</SolidColorBrush>
+
+    <!-- buttons-->
+    <SolidColorBrush x:Key="roundedButtonFg">#eee</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonFgH">#ddd</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonFgP">#fff</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonFgD">#ddd</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonBg">#95a5a6</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonBgH">#34495e</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonBgP">#2980b9</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonBgD">#b1b6b6</SolidColorBrush>
+    <SolidColorBrush x:Key="roundedButtonBgA">#b71540</SolidColorBrush>
+
+    <!-- slider-->
+    <SolidColorBrush x:Key="thumbColor">#999</SolidColorBrush>
+    <SolidColorBrush x:Key="sliderThumbBg">#999</SolidColorBrush>
+    <SolidColorBrush x:Key="sliderThumbFg">#fff</SolidColorBrush>
+    <SolidColorBrush x:Key="sliderBg1">#555</SolidColorBrush>
+    <SolidColorBrush x:Key="sliderBg2">#ddd</SolidColorBrush>
+
+    <!--scroll view-->
+    <SolidColorBrush x:Key="defaultScrollColor">#95a5a6</SolidColorBrush>
+    <SolidColorBrush x:Key="pressedScrollColor">#2980b9</SolidColorBrush>
+    <SolidColorBrush x:Key="hoverSliderColor">#34495e</SolidColorBrush>
+
+</ResourceDictionary>
